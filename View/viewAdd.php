@@ -1,6 +1,5 @@
 <?php $this->_title = "Ajouter un étudiant"; ?>
 
-
 <div class="container">
 
     <form class="mt-5" method="POST">
