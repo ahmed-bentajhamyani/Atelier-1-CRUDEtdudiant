@@ -97,7 +97,7 @@ class EtudiantController{
     public function liste()
     {
         $etudiants = $this->_etudiantTransaction->getList();
-        $view = new View( "Liste" );
+        $view = new View( "Welcome" );
         $view->generate( array('etudiants' => $etudiants) );
     }
 }
